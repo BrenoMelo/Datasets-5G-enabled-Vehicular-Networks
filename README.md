@@ -1,6 +1,6 @@
 # Datasets 5G-enabled Vehicular Networks
 
-We use the NS-3 network simulator, which is open-source. We used the 5G-LENA module, i.e., a GPLv2 New Radio (NR) network, called nr, that also allows to simulate 4G and 5G networks and V2X-based 5G communication. The simulator allows simulating some network actors, such as remote hosts that can connect to Packet Gateway and Service Gateway through a link and send it to gNodeB, and user equipment (i.e., vehicles). Additionally, the nr module is described as a “hard fork” of the millimeter-wave (mmWave) simulator, which enables simulating the physical (PHY) layer and medium access control (MAC), mmWave channel, propagation, beamforming, and antenna models.
+We use the NS-3 network simulator, which is open-source. We used the 5G-LENA module (<a href="https://gitlab.com/cttc-lena/nr">https://gitlab.com/cttc-lena/nr</a>), i.e., a GPLv2 New Radio (NR) network, called nr, that also allows to simulate 4G and 5G networks and V2X-based 5G communication. The simulator allows simulating some network actors, such as remote hosts that can connect to Packet Gateway and Service Gateway through a link and send it to gNodeB, and user equipment (i.e., vehicles). Additionally, the nr module is described as a “hard fork” of the millimeter-wave (mmWave) simulator, which enables simulating the physical (PHY) layer and medium access control (MAC), mmWave channel, propagation, beamforming, and antenna models.
 
 The simulations are designed as follows: <br />
 •	All vehicles are equipped with 5G technology, where SUMO is used to generate mobility.<br />
@@ -31,3 +31,5 @@ Additionally, all datasets have the following features:<br />
 •	speed—is the speed of the vehicle in meters per second; <br />
 •	isAttack—is the class of benign (class 0) packet or malign (class 1) packet.<br />
 
+# Please cite our work
+...
