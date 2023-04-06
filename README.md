@@ -31,5 +31,5 @@ Additionally, all datasets have the following features:<br />
 •	speed—is the speed of the vehicle in meters per second; <br />
 •	isAttack—is the class of benign (class 0) packet or malign (class 1) packet.<br />
 
-# Please cite our work
+# Cite our work
 ...
