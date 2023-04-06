@@ -14,22 +14,22 @@ As previously stated, vehicles are separated into two groups (i.e., senders and 
 In addition, each simulation lasts a total of 230 s. However, to enable more mobility/movement of the vehicles, they exchange packets at second 170.<br />
 
 Additionally, all datasets have the following features:<br />
-•	timeSec—this feature indicates the simulation time at which a packet is sent or received. In our dataset, we are considering only metrics of received packets; <br />
-•	txRx—a tag to indicate whether a packet was sent (tx) or received (rx);<br />
-•	nodeId—refers to the receiver node ID; <br />
-•	imsi—is the International Mobile Subscriber Identity, which is an identifier assigned with the SIM (Subscriber Identity Module) card; <br />
-•	srcIp—the IP address of a sender node; <br />
-•	dstIp—the IP address of a receiver node; <br />
-•	packetSizeBytes—it refers to the packet size in bytes. Each sender node uses a different size to increase randomness; <br />
-•	srcPort—refers to the port where the sender nodes are sending the packets; <br />
-•	dstPort—refers to the port where the receiver nodes are receiving the packets; <br />
-•	pktSeqNum—refers to the sequence of transmitted packets; <br />
-•	delay—the difference between the reception time of a packet and its sending time; <br />
-•	jitter—it uses the RFC 1889 format; <br />
-•	coord_x—is the “x” coordinate on the map generated in SUMO; <br />
-•	coord_y—is the “y” coordinate on the map generated in SUMO; <br />
-•	speed—is the speed of the vehicle in meters per second; <br />
-•	isAttack—is the class of benign (class 0) packet or malign (class 1) packet.<br />
+•	timeSec — this feature indicates the simulation time at which a packet is sent or received. In our dataset, we are considering only metrics of received packets; <br />
+•	txRx — a tag to indicate whether a packet was sent (tx) or received (rx);<br />
+•	nodeId — refers to the receiver node ID; <br />
+•	imsi — is the International Mobile Subscriber Identity, which is an identifier assigned with the SIM (Subscriber Identity Module) card; <br />
+•	srcIp — the IP address of a sender node; <br />
+•	dstIp — the IP address of a receiver node; <br />
+•	packetSizeBytes — it refers to the packet size in bytes. Each sender node uses a different size to increase randomness; <br />
+•	srcPort — refers to the port where the sender nodes are sending the packets; <br />
+•	dstPort — refers to the port where the receiver nodes are receiving the packets; <br />
+•	pktSeqNum — refers to the sequence of transmitted packets; <br />
+•	delay — the difference between the reception time of a packet and its sending time; <br />
+•	jitter — it uses the RFC 1889 format; <br />
+•	coord_x — is the “x” coordinate on the map generated in SUMO; <br />
+•	coord_y — is the “y” coordinate on the map generated in SUMO; <br />
+•	speed — is the speed of the vehicle in meters per second; <br />
+•	isAttack — is the class of benign (class 0) packet or malign (class 1) packet.<br />
 
 # Cite our work
 ...
