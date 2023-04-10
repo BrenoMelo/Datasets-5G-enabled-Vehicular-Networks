@@ -32,4 +32,4 @@ Additionally, all datasets have the following features:<br />
 •	isAttack — is the class of benign (class 0) packet or malign (class 1) packet.<br />
 
 # Cite our work
-...
+Sousa B, Magaia N, Silva S. An Intelligent Intrusion Detection System for 5G-Enabled Internet of Vehicles. Electronics. 2023; 12(8):1757. https://doi.org/10.3390/electronics12081757
